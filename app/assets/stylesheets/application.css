@@ -13,3 +13,50 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+
+.ask_coach {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.input {
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(90, 90, 90, 0.6);
+}
+
+.btn-primary {
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(90, 90, 90, 0.6);
+}
+
+.submit {
+  margin-left: 5px;
+}
+
+.ask-again {
+margin-top: 10px;
+}
+
+.card {
+border-radius: 8px;
+box-shadow: 2px 2px 5px rgba(90, 90, 90, 0.6);
+padding: 5px;
+margin-top: 10px;
+text-align: center;
+width: 250px
+}
+
+.you {
+  margin-top: 30px;
+}

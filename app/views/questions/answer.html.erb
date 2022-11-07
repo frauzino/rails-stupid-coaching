@@ -1,0 +1,10 @@
+<div class="card you">
+  <p><%= @question %></p>
+  <p>-You</p>
+</div>
+<div class="card">
+  <p><%= @answer %></p>
+  <p>-Coach</p>
+</div>
+
+<%= link_to "Talk to Coach again", ask_path, class: "btn btn-primary ask-again" %>
